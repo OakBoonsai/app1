@@ -1,16 +1,8 @@
-import  React  from 'react';
-import './style.css'
-// import Calendar from './class-component'
-import {Header, Content, Footer} from './func-component'  
+import  React  from 'react'
+import RefsFunc from './refs-func'
 
-function App(){
-  return (
-    <>
-        <Header/>
-        <Content/>
-        <Footer/>
-    </>
-
+export default function App(){
+  return(
+    <RefsFunc/>
   )
 }
-export default App;
