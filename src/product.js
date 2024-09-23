@@ -3,10 +3,10 @@ import './product.css'
 
 export default class Products extends React.Component{
     data=[
-        ['React',500]
+        ['React',500],
         ['React Native',650],
         ['Node.js',450],
-        ['MongoDB',300]
+        ['MongoDB',300],
         ['Express.js',650]
     ]
     render(){
